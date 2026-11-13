@@ -1,0 +1,13 @@
+Options -Indexes
+
+<Files ".env">
+    Require all denied
+</Files>
+
+<Files "bd.php">
+    Require all denied
+</Files>
+
+<FilesMatch "\.(sqlite|log|json)$">
+    Require all denied
+</FilesMatch>

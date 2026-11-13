@@ -1,0 +1,10 @@
+.env
+storage/*.sqlite
+storage/*.sqlite-journal
+storage/*.sqlite-wal
+storage/*.sqlite-shm
+storage/*.log
+storage/*.json
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
